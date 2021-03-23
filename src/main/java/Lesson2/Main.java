@@ -6,7 +6,7 @@ public class Main { //создаем "включатели" и "выключат
     private static Statement stmt;
     private static Connection connection;
     private static PreparedStatement pstmt;
-
+int a =2;
     public static void connect(){ //подключаем базу
         try {
             Class.forName("org.sqlite.JDBC");
