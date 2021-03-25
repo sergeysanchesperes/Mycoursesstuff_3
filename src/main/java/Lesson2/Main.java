@@ -14,7 +14,7 @@ public class Main { //создаем "включатели" и "выключат
             stmt = connection.createStatement();
         } catch (ClassNotFoundException | SQLException e) {
             e.printStackTrace();
-        }
+        }//-
     }
     public static void disconnect(){    //отключаем приложение (базу)
         try {
